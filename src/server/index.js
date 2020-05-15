@@ -2,6 +2,9 @@ var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
+//adding json
+const json = require('json-loader')
+
 const app = express()
 
 app.use(express.static('src/client'))
